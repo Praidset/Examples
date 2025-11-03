@@ -17,7 +17,7 @@ You should assume the year in question is not a leap year. Therefore, the number
 All text outside a valid date can be ignored, including other invalid dates.
 
 
-Solution:
+Решение:
 
 import re
 
