@@ -1,4 +1,4 @@
-Your task is to write a regular expression (regex) that will match a string only if it contains at least one valid date, in the format [mm-dd] (that is, a two-digit month, followed by a dash, followed by a two-digit date, surrounded by square brackets).
+'''Your task is to write a regular expression (regex) that will match a string only if it contains at least one valid date, in the format [mm-dd] (that is, a two-digit month, followed by a dash, followed by a two-digit date, surrounded by square brackets).
 
 You should assume the year in question is not a leap year. Therefore, the number of days each month should have are as follows:
 
@@ -14,10 +14,8 @@ You should assume the year in question is not a leap year. Therefore, the number
 10. October - 31 days
 11. November - 30 days
 12. December - 31 days
-All text outside a valid date can be ignored, including other invalid dates.
+All text outside a valid date can be ignored, including other invalid dates.'''
 
-
-Решение:
 
 import re
 
